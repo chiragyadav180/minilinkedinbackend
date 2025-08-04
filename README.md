@@ -24,4 +24,15 @@ This is the **backend server** for the Mini LinkedIn-like Community Platform —
 
 ```bash
 git clone https://github.com/yourusername/minilinkedin.git
-cd minilinkedin/backend
+cd minilinkedin/backend\
+
+2. Install Dependencies
+npm install
+
+3. Create .env File
+PORT=3000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+4. Start the Server
+npm start
